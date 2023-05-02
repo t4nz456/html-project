@@ -1,0 +1,181 @@
+
+    body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    background-color: #f2f2f2;
+    }
+    
+    a {
+    color: #0077cc;
+    text-decoration: none;
+    }
+    
+    a:hover {
+    text-decoration: underline;
+    }
+    
+    img {
+    max-width: 100%;
+    height: auto;
+    }
+    
+
+    header {
+    background-color: #0077cc;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    }
+    
+    nav ul {
+    list-style: none;
+    display: flex;
+    }
+    
+    nav li {
+    margin: 0 10px;
+    }
+    
+    nav a {
+    color: #fff;
+    }
+    
+    nav a:hover {
+    color: #f2f2f2;
+    }
+    
+ 
+    .hero {
+    background-image: url('hero-background.jpg');
+    background-position: center;
+    background-size: cover;
+    color: #1725e9;
+    padding: 100px 20px;
+    text-align: center;
+    }
+    
+    .hero h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+    }
+    
+    .hero p {
+    margin-bottom: 20px;
+    font-size: 24px;
+    }
+    
+ 
+    .bio {
+    padding: 50px 20px;
+    background-color: #fff;
+    }
+    
+    .bio h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+    }
+    
+    .bio p {
+    margin-bottom: 20px;
+    font-size: 20px;
+    }
+    
+
+    .experience {
+    padding: 50px 20px;
+    background-color: #f2f2f2;
+    }
+    
+    .experience h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+    }
+    
+    .experience ul {
+    list-style: none;
+    }
+    
+    .experience li {
+    margin-bottom: 20px;
+    }
+    
+    .experience h3 {
+    margin-bottom: 10px;
+    font-size: 24px;
+    }
+    
+    .experience p {
+    margin-bottom: 5px;
+    font-size: 16px;
+    }
+    
+    .experience ul li ul {
+    margin-left: 20px;
+    }
+    
+    .experience ul li ul li {
+    margin-bottom: 5px;
+    font-size: 16px;
+    }
+    
+  
+    .portfolio {
+    padding: 50px 20px;
+    background-color: #fff;
+    }
+    
+    .portfolio h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+    }
+    
+    .portfolio ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    }
+    
+    .portfolio li {
+    width: calc(33.33% - 20px);
+    margin-bottom: 40px;
+    padding: 20px;
+    background-color: #f2f2f2;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    }
+    
+    .portfolio h3 {
+    margin-bottom: 10px;
+    font-size: 24px;
+    }
+    
+    .portfolio p {
+    margin-bottom: 20px;
+    font-size: 16px;
+    }
+    
+    .portfolio img {
+    margin-bottom: 20px;
+    }
+    
+    .portfolio a {
+    display: block;
+    margin-top: auto;
+    color: #0077cc;
+    }
+    
+    .portfolio a:hover {
+    color: #005580;
+    }
+    
+
+    footer {
+    background-color: #0077cc;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    }
